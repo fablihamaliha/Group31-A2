@@ -24,7 +24,6 @@ def get_tasks():
         print('Yes')
     else:
         print('no')
-        print('Yes')
 
     return jsonify({'tasks': tasks})
 
