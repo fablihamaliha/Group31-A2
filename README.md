@@ -1,2 +1,2 @@
 # A21
-[![Build Status](https://travis-ci.com/fablihamaliha/A21.svg?branch=Master)](https://travis-ci.com/fablihamaliha/A21)
+https://www.travis-ci.com/fablihamaliha/Group31-A2.svg?branch=main
