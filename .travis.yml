@@ -1,4 +1,4 @@
-#sudo: required
+sudo: required
 language: python
 services:
 - docker
@@ -15,7 +15,7 @@ after_success:
 
 deploy:
   provider: elasticbeanstalk
-  region: "ca-central-1a"
+  region: "ca-central-1"
   app: "dtest"
   env: "Dtest-env"
   bucket_name: "elasticbeanstalk-ca-central-1-665957907372"
