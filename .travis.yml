@@ -14,11 +14,11 @@ after_success:
   #test
 
 deploy:
- provider: elasticbeanstalk
-region: "ca-central-1a"
-app: "dtest"
-env: "Dtest-env"
-bucket_name: "elasticbeanstalk-ca-central-1-665957907372"
+  provider: elasticbeanstalk
+  region: "ca-central-1a"
+  app: "dtest"
+  env: "Dtest-env"
+  bucket_name: "elasticbeanstalk-ca-central-1-665957907372"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
