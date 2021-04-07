@@ -20,7 +20,7 @@ deploy:
   env: "Dtest-env"
   bucket_name: "elasticbeanstalk-ca-central-1-665957907372"
   on:
-    branch: master
+    branch: docker
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY '''
 #help
