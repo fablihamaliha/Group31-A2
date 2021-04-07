@@ -8,7 +8,7 @@ script:
 
 after_success:
   #log in to docker CLI
-  - echo "$Maliha123@" | docker login -u "$maliha123" --password-stdin
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   #take built images and push to DOcker hub
   - docker push maliha123/docker
   #test
