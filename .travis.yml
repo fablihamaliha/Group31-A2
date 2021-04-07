@@ -10,10 +10,10 @@ after_success:
   #log in to docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   #take built images and push to DOcker hub
-  - docker push kazirys21/dockertest1
+  - docker push maliha123/dockertest1
   #test
 
-deploy:
+'''deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "dtest"
@@ -22,4 +22,4 @@ deploy:
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
+  secret_access_key: $AWS_SECRET_KEY '''
