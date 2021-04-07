@@ -13,13 +13,13 @@ after_success:
   - docker push maliha123/docker
   #test
 
-#deploy:
- # provider: elasticbeanstalk
-  #region: "us-east-1"
-  #app: "dtest"
-  #env: "Dtest-env"
-  #bucket_name: "elasticbeanstalk-us-east-1"
-  #on:
-    #branch: master
-  #access_key_id: $AWS_ACCESS_KEY
-  #secret_access_key: $AWS_SECRET_KEY '''
+deploy:
+ provider: elasticbeanstalk
+region: "us-east-1"
+app: "dtest"
+env: "Dtest-env"
+bucket_name: "elasticbeanstalk-ca-central-1-665957907372"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY '''
