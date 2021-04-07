@@ -15,7 +15,7 @@ after_success:
 
 deploy:
  provider: elasticbeanstalk
-region: "us-east-1"
+region: "ca-central-1a"
 app: "dtest"
 env: "Dtest-env"
 bucket_name: "elasticbeanstalk-ca-central-1-665957907372"
