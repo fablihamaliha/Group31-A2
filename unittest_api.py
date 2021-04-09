@@ -1,4 +1,4 @@
-from flask_demo_api import app
+from sample_demo_api import app
 import unittest
 import json
 
