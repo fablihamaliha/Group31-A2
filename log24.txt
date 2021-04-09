@@ -1,385 +1,0 @@
-travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 7efb7b50-d552-4005-b237-f8a93b229653@1.worker-com-oss-6955bf87c5-h57mb.gce-production-3
-version: 6.2.22 https://github.com/travis-ci/worker/tree/858cb91994a513269f2fe9782c15fc113e966231
-instance: travis-job-d6c9e048-729a-4633-8ec8-109b6efe0153 travis-ci-sardonyx-xenial-1593004276-4d46c6b3 (via amqp)
-startup: 6.114097201s
-travis_fold:end:worker_info[0Ktravis_time:start:01e36b34[0Ktravis_time:end:01e36b34:start=1617818206237987144,finish=1617818206387095150,duration=149108006,event=no_world_writable_dirs[0Ktravis_time:start:02b61ea1[0Ktravis_time:end:02b61ea1:start=1617818206389805449,finish=1617818206392572481,duration=2767032,event=setup_filter[0Ktravis_time:start:05a51e40[0Ktravis_time:end:05a51e40:start=1617818206397102932,finish=1617818206405120623,duration=8017691,event=agent[0Ktravis_time:start:189f8fdc[0Ktravis_time:end:189f8fdc:start=1617818206407825424,finish=1617818206409843302,duration=2017878,event=check_unsupported[0Ktravis_time:start:1b1d8ad0[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
-Build language: python
-Build dist: xenial
-Build id: 222423911
-Job id: 496791158
-Runtime kernel version: 4.15.0-1077-gcp
-travis-build version: 091d532a
-[34m[1mBuild image provisioning date and time[0m
-Wed Jun 24 13:36:52 UTC 2020
-[34m[1mOperating System Details[0m
-Distributor ID:	Ubuntu
-Description:	Ubuntu 16.04.6 LTS
-Release:	16.04
-Codename:	xenial
-[34m[1mSystemd Version[0m
-systemd 229
-[34m[1mCookbooks Version[0m
-3f92a99 https://github.com/travis-ci/travis-cookbooks/tree/3f92a99
-[34m[1mgit version[0m
-git version 2.27.0
-[34m[1mbash version[0m
-GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
-[34m[1mgcc version[0m
-gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609
-[34m[1mdocker version[0m
-Client:
- Version:           18.06.0-ce
- API version:       1.38
- Go version:        go1.10.3
- Git commit:        0ffa825
- Built:             Wed Jul 18 19:11:02 2018
- OS/Arch:           linux/amd64
- Experimental:      false
-
-Server:
- Engine:
-  Version:          18.06.0-ce
-  API version:      1.38 (minimum version 1.12)
-  Go version:       go1.10.3
-  Git commit:       0ffa825
-  Built:            Wed Jul 18 19:09:05 2018
-  OS/Arch:          linux/amd64
-  Experimental:     false
-[34m[1mclang version[0m
-clang version 7.0.0 (tags/RELEASE_700/final)
-[34m[1mjq version[0m
-jq-1.5
-[34m[1mbats version[0m
-Bats 0.4.0
-[34m[1mshellcheck version[0m
-0.7.0
-[34m[1mshfmt version[0m
-v2.6.3
-[34m[1mccache version[0m
-3.2.4
-[34m[1mcmake version[0m
-cmake version 3.12.4
-[34m[1mheroku version[0m
-heroku/7.42.1 linux-x64 node-v12.16.2
-[34m[1mimagemagick version[0m
-Version: ImageMagick 6.8.9-9 Q16 x86_64 2019-11-12 http://www.imagemagick.org
-[34m[1mmd5deep version[0m
-4.4
-[34m[1mmercurial version[0m
-version 4.8
-[34m[1mmysql version[0m
-mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper
-[34m[1mopenssl version[0m
-OpenSSL 1.0.2g  1 Mar 2016
-[34m[1mpacker version[0m
-1.3.3
-[34m[1mpostgresql client version[0m
-psql (PostgreSQL) 10.13 (Ubuntu 10.13-1.pgdg16.04+1)
-[34m[1mragel version[0m
-Ragel State Machine Compiler version 6.8 Feb 2013
-[34m[1msudo version[0m
-1.8.16
-[34m[1mgzip version[0m
-gzip 1.6
-[34m[1mzip version[0m
-Zip 3.0
-[34m[1mvim version[0m
-VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Mar 18 2020 14:06:17)
-[34m[1miptables version[0m
-iptables v1.6.0
-[34m[1mcurl version[0m
-curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
-[34m[1mwget version[0m
-GNU Wget 1.17.1 built on linux-gnu.
-[34m[1mrsync version[0m
-rsync  version 3.1.1  protocol version 31
-[34m[1mgimme version[0m
-v1.5.4
-[34m[1mnvm version[0m
-0.35.3
-[34m[1mperlbrew version[0m
-/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.88
-[34m[1mphpenv version[0m
-rbenv 1.1.2-30-gc879cb0
-[34m[1mrvm version[0m
-rvm 1.29.10 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
-[34m[1mdefault ruby version[0m
-ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
-[34m[1mCouchDB version[0m
-couchdb 1.6.1
-[34m[1mElasticSearch version[0m
-5.5.0
-[34m[1mInstalled Firefox version[0m
-firefox 63.0.1
-[34m[1mMongoDB version[0m
-MongoDB 4.0.19
-[34m[1mPhantomJS version[0m
-2.1.1
-[34m[1mPre-installed PostgreSQL versions[0m
-9.4.26
-9.5.22
-9.6.18
-[34m[1mRedis version[0m
-redis-server 6.0.5
-[34m[1mPre-installed Go versions[0m
-1.11.1
-[34m[1mant version[0m
-Apache Ant(TM) version 1.9.6 compiled on July 20 2018
-[34m[1mmvn version[0m
-Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
-[34m[1mgradle version[0m
-Gradle 5.1.1!
-[34m[1mlein version[0m
-Leiningen 2.9.3 on Java 11.0.2 OpenJDK 64-Bit Server VM
-[34m[1mPre-installed Node.js versions[0m
-v10.21.0
-v11.0.0
-v12.18.1
-v4.9.1
-v6.17.1
-v8.12.0
-v8.17.0
-v8.9
-[34m[1mphpenv versions[0m
-  system
-  5.6
-  5.6.40
-  7.1
-  7.1.27
-  7.2
-* 7.2.15 (set by /home/travis/.phpenv/version)
-  hhvm
-  hhvm-stable
-[34m[1mcomposer --version[0m
-Composer version 1.8.4 2019-02-11 10:52:10
-[34m[1mPre-installed Ruby versions[0m
-ruby-2.3.8
-ruby-2.4.5
-ruby-2.5.3
-travis_fold:end:system_info[0K
-travis_time:end:1b1d8ad0:start=1617818206412658800,finish=1617818206417747174,duration=5088374,event=show_system_info[0Ktravis_time:start:0e9bdfe7[0Ktravis_time:end:0e9bdfe7:start=1617818206420579310,finish=1617818206432862792,duration=12283482,event=rm_riak_source[0Ktravis_time:start:1052937b[0Ktravis_time:end:1052937b:start=1617818206436017670,finish=1617818206441071003,duration=5053333,event=fix_rwky_redis[0Ktravis_time:start:0a0ae31a[0Ktravis_time:end:0a0ae31a:start=1617818206446389817,finish=1617818207248650025,duration=802260208,event=wait_for_network[0Ktravis_time:start:230472c0[0Ktravis_time:end:230472c0:start=1617818207253055650,finish=1617818207474068266,duration=221012616,event=update_apt_keys[0Ktravis_time:start:01b3aa40[0Ktravis_time:end:01b3aa40:start=1617818207478729186,finish=1617818207530418093,duration=51688907,event=fix_hhvm_source[0Ktravis_time:start:03dfbe04[0Ktravis_time:end:03dfbe04:start=1617818207534675607,finish=1617818207537573491,duration=2897884,event=update_mongo_arch[0Ktravis_time:start:106536a8[0Ktravis_time:end:106536a8:start=1617818207544375847,finish=1617818207585459573,duration=41083726,event=fix_sudo_enabled_trusty[0Ktravis_time:start:00d39e0e[0Ktravis_time:end:00d39e0e:start=1617818207590265671,finish=1617818207593435330,duration=3169659,event=update_glibc[0Ktravis_time:start:0cf38098[0Ktravis_time:end:0cf38098:start=1617818207597945366,finish=1617818207606129940,duration=8184574,event=clean_up_path[0Ktravis_time:start:19d21510[0Ktravis_time:end:19d21510:start=1617818207609595104,finish=1617818207618395533,duration=8800429,event=fix_resolv_conf[0Ktravis_time:start:03f5b054[0Ktravis_time:end:03f5b054:start=1617818207622368208,finish=1617818207631394534,duration=9026326,event=fix_etc_hosts[0Ktravis_time:start:0586f902[0Ktravis_time:end:0586f902:start=1617818207634965249,finish=1617818207644690141,duration=9724892,event=fix_mvn_settings_xml[0Ktravis_time:start:26205f28[0Ktravis_time:end:26205f28:start=1617818207648808822,finish=1617818207659252033,duration=10443211,event=no_ipv6_localhost[0Ktravis_time:start:13d9947e[0Ktravis_time:end:13d9947e:start=1617818207663921097,finish=1617818207666356554,duration=2435457,event=fix_etc_mavenrc[0Ktravis_time:start:09bd71d6[0Ktravis_time:end:09bd71d6:start=1617818207670415432,finish=1617818207673536483,duration=3121051,event=fix_wwdr_certificate[0Ktravis_time:start:1f9807d8[0Ktravis_time:end:1f9807d8:start=1617818207677853202,finish=1617818207702869645,duration=25016443,event=put_localhost_first[0Ktravis_time:start:2cf4b874[0Ktravis_time:end:2cf4b874:start=1617818207707244827,finish=1617818207710427620,duration=3182793,event=home_paths[0Ktravis_time:start:0718aadc[0Ktravis_time:end:0718aadc:start=1617818207713973865,finish=1617818207726066039,duration=12092174,event=disable_initramfs[0Ktravis_time:start:273a357b[0Ktravis_time:end:273a357b:start=1617818207731778556,finish=1617818208046436741,duration=314658185,event=disable_ssh_roaming[0Ktravis_time:start:036f33f0[0Ktravis_time:end:036f33f0:start=1617818208052041466,finish=1617818208054379910,duration=2338444,event=debug_tools[0Ktravis_time:start:00bc9620[0Ktravis_time:end:00bc9620:start=1617818208058624267,finish=1617818208061647720,duration=3023453,event=uninstall_oclint[0Ktravis_time:start:3eaf7820[0Ktravis_time:end:3eaf7820:start=1617818208065704685,finish=1617818208068798258,duration=3093573,event=rvm_use[0Ktravis_time:start:08ebbbc3[0Ktravis_time:end:08ebbbc3:start=1617818208072705921,finish=1617818208080393126,duration=7687205,event=rm_etc_boto_cfg[0Ktravis_time:start:0e7e8101[0Ktravis_time:end:0e7e8101:start=1617818208084050457,finish=1617818208090283690,duration=6233233,event=rm_oraclejdk8_symlink[0Ktravis_time:start:05bcdd96[0Ktravis_time:end:05bcdd96:start=1617818208093906245,finish=1617818208194076617,duration=100170372,event=enable_i386[0Ktravis_time:start:1933b224[0Ktravis_time:end:1933b224:start=1617818208200439166,finish=1617818208205916897,duration=5477731,event=update_rubygems[0Ktravis_time:start:13397196[0Ktravis_time:end:13397196:start=1617818208210185858,finish=1617818208997526913,duration=787341055,event=ensure_path_components[0Ktravis_time:start:0352fd4c[0Ktravis_time:end:0352fd4c:start=1617818209002154633,finish=1617818209004418775,duration=2264142,event=redefine_curl[0Ktravis_time:start:1be4d32c[0Ktravis_time:end:1be4d32c:start=1617818209008263975,finish=1617818209100495543,duration=92231568,event=nonblock_pipe[0Ktravis_time:start:1896da62[0Ktravis_time:end:1896da62:start=1617818209104290429,finish=1617818215135908416,duration=6031617987,event=apt_get_update[0Ktravis_time:start:056d6ff0[0Ktravis_time:end:056d6ff0:start=1617818215140378795,finish=1617818215142682350,duration=2303555,event=deprecate_xcode_64[0Ktravis_time:start:26beba1b[0Ktravis_time:end:26beba1b:start=1617818215147227178,finish=1617818217835399211,duration=2688172033,event=update_heroku[0Ktravis_time:start:37151850[0Ktravis_time:end:37151850:start=1617818217839926713,finish=1617818217842257998,duration=2331285,event=shell_session_update[0Ktravis_time:start:00023586[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:00023586:start=1617818217848731708,finish=1617818220410153007,duration=2561421299,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:1b5dece0[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:1b5dece0:start=1617818220414951111,finish=1617818220474938772,duration=59987661,event=resolvconf[0Ktravis_time:start:0acfce18[0Ktravis_time:end:0acfce18:start=1617818220494091727,finish=1617818220618618607,duration=124526880,event=maven_central_mirror[0Ktravis_time:start:05019f84[0Ktravis_time:end:05019f84:start=1617818220622392456,finish=1617818220711443391,duration=89050935,event=maven_https[0Ktravis_time:start:0032b821[0Ktravis_fold:start:services[0Ktravis_time:start:087cc006[0K$ sudo systemctl start docker
-travis_time:end:087cc006:start=1617818220730774278,finish=1617818220742715807,duration=11941529,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:087cc006:start=1617818220730774278,finish=1617818223749020814,duration=3018246536,event=services[0Ktravis_time:start:25536b5a[0Ktravis_time:end:25536b5a:start=1617818223752814332,finish=1617818223755210708,duration=2396376,event=fix_ps4[0Ktravis_time:start:07ecd0e0[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:0a4ee89e[0K$ git clone --depth=50 --branch=docker https://github.com/fablihamaliha/Group31-A2.git fablihamaliha/Group31-A2
-Cloning into 'fablihamaliha/Group31-A2'...
-travis_time:end:0a4ee89e:start=1617818223766908446,finish=1617818224292615417,duration=525706971,event=checkout[0K$ cd fablihamaliha/Group31-A2
-$ git checkout -qf a0e2dc176ed084f6b1d6c5525b9940b65ca5b218
-travis_fold:end:git.checkout[0K
-travis_time:end:0a4ee89e:start=1617818223766908446,finish=1617818224300080226,duration=533171780,event=checkout[0Ktravis_time:start:19cb7a8b[0K
-[33;1mSetting environment variables from repository settings[0m
-$ export DOCKER_ID=[secure]
-$ export DOCKER_PASSWORD=[secure]
-$ export AWS_ACCESS_KEY=[secure]
-$ export AWS_SECRET_KEY=[secure]
-
-travis_time:end:19cb7a8b:start=1617818224306475184,finish=1617818224315539510,duration=9064326,event=env[0Ktravis_time:start:2553240a[0K$ source ~/virtualenv/python3.6/bin/activate
-travis_time:end:2553240a:start=1617818224322394253,finish=1617818224329380877,duration=6986624,event=[0K$ python --version
-Python 3.6.7
-$ pip --version
-pip 20.1.1 from /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/pip (python 3.6)
-[33;1mPip version 20.3 introduces changes to the dependency resolver that may affect your software.[0m
-[33;1mWe advise you to consider testing the upcoming changes, which may be introduced in a future Travis CI build image update.[0m
-[33;1mSee https://pip.pypa.io/en/latest/user_guide/#changes-to-the-pip-dependency-resolver-in-20-2-2020 for more information.[0m
-
-travis_fold:start:install[0Ktravis_time:start:0257eee4[0K$ pip install -r requirements.txt
-Collecting boto3
-  Downloading boto3-1.17.46.tar.gz (99 kB)
-Collecting Flask==0.12
-  Downloading Flask-0.12-py2.py3-none-any.whl (82 kB)
-Collecting botocore<1.21.0,>=1.20.46
-  Downloading botocore-1.20.46-py2.py3-none-any.whl (7.4 MB)
-Collecting jmespath<1.0.0,>=0.7.1
-  Downloading jmespath-0.10.0-py2.py3-none-any.whl (24 kB)
-Collecting s3transfer<0.4.0,>=0.3.0
-  Downloading s3transfer-0.3.6-py2.py3-none-any.whl (73 kB)
-Collecting Werkzeug>=0.7
-  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
-Collecting itsdangerous>=0.21
-  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
-Collecting Jinja2>=2.4
-  Downloading Jinja2-2.11.3-py2.py3-none-any.whl (125 kB)
-Collecting click>=2.0
-  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
-Collecting python-dateutil<3.0.0,>=2.1
-  Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
-Collecting urllib3<1.27,>=1.25.4
-  Downloading urllib3-1.26.4-py2.py3-none-any.whl (153 kB)
-Collecting MarkupSafe>=0.23
-  Downloading MarkupSafe-1.1.1-cp36-cp36m-manylinux2010_x86_64.whl (32 kB)
-Requirement already satisfied: six>=1.5 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.21.0,>=1.20.46->boto3->-r requirements.txt (line 1)) (1.11.0)
-Building wheels for collected packages: boto3
-  Building wheel for boto3 (setup.py): started
-  Building wheel for boto3 (setup.py): finished with status 'done'
-  Created wheel for boto3: filename=boto3-1.17.46-py2.py3-none-any.whl size=128779 sha256=2c20974355cfe1e5ddb96c08bd345f8d670445741f837cfa8f5483007909b941
-  Stored in directory: /home/travis/.cache/pip/wheels/95/d8/0b/0186737397b3fa627d2066bcd0353f67a87042fb105d96efa6
-Successfully built boto3
-Installing collected packages: jmespath, python-dateutil, urllib3, botocore, s3transfer, boto3, Werkzeug, itsdangerous, MarkupSafe, Jinja2, click, Flask
-Successfully installed Flask-0.12 Jinja2-2.11.3 MarkupSafe-1.1.1 Werkzeug-1.0.1 boto3-1.17.46 botocore-1.20.46 click-7.1.2 itsdangerous-1.1.0 jmespath-0.10.0 python-dateutil-2.8.1 s3transfer-0.3.6 urllib3-1.26.4
-travis_time:end:0257eee4:start=1617818225126158859,finish=1617818231361198828,duration=6235039969,event=install[0Ktravis_fold:end:install[0Ktravis_time:start:0240bc10[0K$ docker image build -t [secure]/docker .
-Sending build context to Docker daemon  81.41kB
-Step 1/6 : FROM python:3.6.1
-3.6.1: Pulling from library/python
-9f0706ba7422: Pulling fs layer
-d3942a742d22: Pulling fs layer
-c6575234aef3: Pulling fs layer
-8af5f3519ed2: Pulling fs layer
-27868e2bc876: Pulling fs layer
-31b5a7a11b39: Pulling fs layer
-138d7953531e: Pulling fs layer
-8774a5bb1fe9: Pulling fs layer
-8af5f3519ed2: Waiting
-27868e2bc876: Waiting
-31b5a7a11b39: Waiting
-138d7953531e: Waiting
-8774a5bb1fe9: Waiting
-d3942a742d22: Verifying Checksum
-d3942a742d22: Download complete
-c6575234aef3: Verifying Checksum
-c6575234aef3: Download complete
-9f0706ba7422: Verifying Checksum
-9f0706ba7422: Download complete
-27868e2bc876: Verifying Checksum
-27868e2bc876: Download complete
-138d7953531e: Verifying Checksum
-138d7953531e: Download complete
-31b5a7a11b39: Verifying Checksum
-31b5a7a11b39: Download complete
-8774a5bb1fe9: Verifying Checksum
-8774a5bb1fe9: Download complete
-8af5f3519ed2: Verifying Checksum
-8af5f3519ed2: Download complete
-9f0706ba7422: Pull complete
-d3942a742d22: Pull complete
-c6575234aef3: Pull complete
-8af5f3519ed2: Pull complete
-27868e2bc876: Pull complete
-31b5a7a11b39: Pull complete
-138d7953531e: Pull complete
-8774a5bb1fe9: Pull complete
-Digest: sha256:98fb5342195e69ffda54a7584ed202be71154c7ef64931da5bec5a41739c78d5
-Status: Downloaded newer image for python:3.6.1
- ---> 955d0c3b1bb2
-Step 2/6 : WORKDIR /docker-flask-test
- ---> Running in e9a0d11e990e
-Removing intermediate container e9a0d11e990e
- ---> 6cacac1e185a
-Step 3/6 : ADD . /docker-flask-test
- ---> 7841d68a3529
-Step 4/6 : RUN pip install -r requirements.txt
- ---> Running in 44c41519c717
-Collecting boto3 (from -r requirements.txt (line 1))
-  Downloading https://files.pythonhosted.org/packages/c5/0b/24bb255d19bbe5c645e1bcba6c89ec08b2fcfb4f42341d74b024fee6307d/boto3-1.17.46.tar.gz (99kB)
-Collecting Flask==0.12 (from -r requirements.txt (line 2))
-  Downloading https://files.pythonhosted.org/packages/0e/e9/37ee66dde483dceefe45bb5e92b387f990d4f097df40c400cf816dcebaa4/Flask-0.12-py2.py3-none-any.whl (82kB)
-Collecting botocore<1.21.0,>=1.20.46 (from boto3->-r requirements.txt (line 1))
-  Downloading https://files.pythonhosted.org/packages/6b/3b/3944ed014ba8180e32054f42944988224b3213c3ee423df0e7a156406c7d/botocore-1.20.46-py2.py3-none-any.whl (7.4MB)
-Collecting jmespath<1.0.0,>=0.7.1 (from boto3->-r requirements.txt (line 1))
-  Downloading https://files.pythonhosted.org/packages/07/cb/5f001272b6faeb23c1c9e0acc04d48eaaf5c862c17709d20e3469c6e0139/jmespath-0.10.0-py2.py3-none-any.whl
-Collecting s3transfer<0.4.0,>=0.3.0 (from boto3->-r requirements.txt (line 1))
-  Downloading https://files.pythonhosted.org/packages/98/14/0b4be62b65c52d6d1c442f24e02d2a9889a73d3c352002e14c70f84a679f/s3transfer-0.3.6-py2.py3-none-any.whl (73kB)
-Collecting Jinja2>=2.4 (from Flask==0.12->-r requirements.txt (line 2))
-  Downloading https://files.pythonhosted.org/packages/7e/c2/1eece8c95ddbc9b1aeb64f5783a9e07a286de42191b7204d67b7496ddf35/Jinja2-2.11.3-py2.py3-none-any.whl (125kB)
-Collecting itsdangerous>=0.21 (from Flask==0.12->-r requirements.txt (line 2))
-  Downloading https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
-Collecting Werkzeug>=0.7 (from Flask==0.12->-r requirements.txt (line 2))
-  Downloading https://files.pythonhosted.org/packages/cc/94/5f7079a0e00bd6863ef8f1da638721e9da21e5bacee597595b318f71d62e/Werkzeug-1.0.1-py2.py3-none-any.whl (298kB)
-Collecting click>=2.0 (from Flask==0.12->-r requirements.txt (line 2))
-  Downloading https://files.pythonhosted.org/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl (82kB)
-Collecting python-dateutil<3.0.0,>=2.1 (from botocore<1.21.0,>=1.20.46->boto3->-r requirements.txt (line 1))
-  Downloading https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227kB)
-Collecting urllib3<1.27,>=1.25.4 (from botocore<1.21.0,>=1.20.46->boto3->-r requirements.txt (line 1))
-  Downloading https://files.pythonhosted.org/packages/09/c6/d3e3abe5b4f4f16cf0dfc9240ab7ce10c2baa0e268989a4e3ec19e90c84e/urllib3-1.26.4-py2.py3-none-any.whl (153kB)
-Collecting MarkupSafe>=0.23 (from Jinja2>=2.4->Flask==0.12->-r requirements.txt (line 2))
-  Downloading https://files.pythonhosted.org/packages/b2/5f/23e0023be6bb885d00ffbefad2942bc51a620328ee910f64abe5a8d18dd1/MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl
-Collecting six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore<1.21.0,>=1.20.46->boto3->-r requirements.txt (line 1))
-  Downloading https://files.pythonhosted.org/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl
-Building wheels for collected packages: boto3
-  Running setup.py bdist_wheel for boto3: started
-  Running setup.py bdist_wheel for boto3: finished with status 'done'
-  Stored in directory: /root/.cache/pip/wheels/cc/85/22/e21464ad8c886cc3d95c828e4a2a665f7bc01d332ce509e707
-Successfully built boto3
-Installing collected packages: six, python-dateutil, urllib3, jmespath, botocore, s3transfer, boto3, MarkupSafe, Jinja2, itsdangerous, Werkzeug, click, Flask
-Successfully installed Flask-0.12 Jinja2-2.11.3 MarkupSafe-1.1.1 Werkzeug-1.0.1 boto3-1.17.46 botocore-1.20.46 click-7.1.2 itsdangerous-1.1.0 jmespath-0.10.0 python-dateutil-2.8.1 s3transfer-0.3.6 six-1.15.0 urllib3-1.26.4
-[91mYou are using pip version 9.0.1, however version 21.0.1 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
-[0mRemoving intermediate container 44c41519c717
- ---> 821072c13748
-Step 5/6 : EXPOSE 5000
- ---> Running in fec40904c3e2
-Removing intermediate container fec40904c3e2
- ---> 509dd8683378
-Step 6/6 : CMD ["python","app.py"]
- ---> Running in 445296f1d89b
-Removing intermediate container 445296f1d89b
- ---> c75eb6d692aa
-Successfully built c75eb6d692aa
-Successfully tagged [secure]/docker:latest
-travis_time:end:0240bc10:start=1617818231366058485,finish=1617818259484065844,duration=28118007359,event=script[0K[32;1mThe command "docker image build -t [secure]/docker ." exited with 0.[0m
-
-travis_fold:start:after_success.1[0Ktravis_time:start:0638e49b[0K$ echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-WARNING! Your password will be stored unencrypted in /home/travis/.docker/config.json.
-Configure a credential helper to remove this warning. See
-https://docs.docker.com/engine/reference/commandline/login/#credentials-store
-
-Login Succeeded
-travis_time:end:0638e49b:start=1617818259491263485,finish=1617818260021329397,duration=530065912,event=after_success[0Ktravis_fold:end:after_success.1[0Ktravis_fold:start:after_success.2[0Ktravis_time:start:07729458[0K$ docker push [secure]/docker
-The push refers to repository [docker.io/[secure]/docker]
-58383bbcd634: Preparing
-7a64994dcb78: Preparing
-8e9172148fe3: Preparing
-4b78214a873e: Preparing
-17bf9b56042d: Preparing
-ad9fa7c9d0aa: Preparing
-a3cf95a0a769: Preparing
-8b375be9de19: Preparing
-0f8361255952: Preparing
-71ce2dc7f761: Preparing
-0d960f1d4fba: Preparing
-ad9fa7c9d0aa: Waiting
-a3cf95a0a769: Waiting
-8b375be9de19: Waiting
-0f8361255952: Waiting
-71ce2dc7f761: Waiting
-0d960f1d4fba: Waiting
-4b78214a873e: Layer already exists
-17bf9b56042d: Layer already exists
-ad9fa7c9d0aa: Layer already exists
-a3cf95a0a769: Layer already exists
-8b375be9de19: Layer already exists
-0f8361255952: Layer already exists
-71ce2dc7f761: Layer already exists
-0d960f1d4fba: Layer already exists
-8e9172148fe3: Pushed
-7a64994dcb78: Pushed
-58383bbcd634: Pushed
-latest: digest: sha256:34db5f985708eb1888d9f5150545b15e9abbcc0f5814d1ed04e174bbf61d7e72 size: 2635
-travis_time:end:07729458:start=1617818260029546098,finish=1617818268523559089,duration=8494012991,event=after_success[0Ktravis_fold:end:after_success.2[0Ktravis_fold:start:dpl_0[0Ktravis_time:start:29fee974[0K$ rvm $(travis_internal_ruby) --fuzzy do ruby -S gem install dpl
-Successfully installed dpl-1.10.16
-1 gem installed
-travis_time:end:29fee974:start=1617818269603263840,finish=1617818270907204803,duration=1303940963,event=after_success[0Ktravis_fold:end:dpl_0[0Ktravis_time:start:2f20f8f0[0Ktravis_fold:start:dpl.1[33mInstalling deploy dependencies[0m
-Successfully installed jmespath-1.4.0
-Successfully installed aws-eventstream-1.1.1
-Successfully installed aws-sigv4-1.2.3
-AWS SDK For Ruby V2 has been marked as deprecated. Please upgrade to AWS SDK For Ruby V3.
-Successfully installed aws-sdk-core-2.11.632
-AWS SDK For Ruby V2 has been marked as deprecated. Please upgrade to AWS SDK For Ruby V3.
-Successfully installed aws-sdk-resources-2.11.632
-AWS SDK For Ruby V2 has been marked as deprecated. Please upgrade to AWS SDK For Ruby V3.
-Successfully installed aws-sdk-2.11.632
-Successfully installed rubyzip-1.3.0
-Successfully installed dpl-elastic_beanstalk-1.10.16
-8 gems installed
-
-!!! AWS Elastic Beanstalk support is experimental !!!
-
-
-travis_fold:end:dpl.1travis_fold:start:dpl.2[33mPreparing deploy[0m
-Cleaning up git repository with `git stash --all`. If you need build artifacts for deployment, set `deploy.skip_cleanup: true`. See https://docs.travis-ci.com/user/deployment#Uploading-Files-and-skip_cleanup.
-No local changes to save
-Version 2 of the Ruby SDK will enter maintenance mode as of November 20, 2020. To continue receiving service updates and new features, please upgrade to Version 3. More information can be found here: https://aws.amazon.com/blogs/developer/deprecation-schedule-for-aws-sdk-for-ruby-v2/
-
-travis_fold:end:dpl.2travis_fold:start:dpl.3[33mDeploying application[0m
-
-travis_fold:end:dpl.3No stash entries found.
-travis_time:end:2f20f8f0:start=1617818270916738666,finish=1617818280172597642,duration=9255858976,event=after_success[0K
-Done. Your build exited with 0.
