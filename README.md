@@ -2,7 +2,7 @@
 
 main branch - contains the sample code, unittest code and travis.yml code. The YAML file runs the unit test and generates a coverage report.
 
-docker branch - contains the index.html and the docker file to generate a container for app.py and the index.html which we deployed to AWS ElasticBeanstalk using Travis Ci.
+docker branch - contains the index.html and the docker file to generate a container for app.py and the index.html which we deployed to AWS ElasticBeanstalk using Travis CI.
 The AWS lamda function code is also added to this branch
 
 report branch - Contains raw logs and screeenshots of everything included in the doc submitted
